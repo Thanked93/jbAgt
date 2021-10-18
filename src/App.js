@@ -1,5 +1,5 @@
 import Spiel from "./pages/index";
-/* aus der Github*/
+/* aus der Github nochmal*/
 function App() {
   return (
     <div className="App">

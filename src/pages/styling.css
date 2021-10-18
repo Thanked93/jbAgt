@@ -1,0 +1,44 @@
+.dev_box {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 8fr 8fr 8fr 8fr 8fr 8fr 8fr 8fr;
+}
+
+.dev_kaechen {
+  width: 90%;
+  height: 100%;
+  background-color: yellow;
+  border-style: outset;
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.dev_weiss {
+  border-style: groove;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+.dev_schwarz {
+  border-style: groove;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+.dev_leer {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.dev_leer:hover {
+  border-style: groove;
+  background-color: rgb(126, 125, 125, 0.2);
+}
